@@ -1,0 +1,5 @@
+# Assignment 4 submission by Nitish Jha
+
+num = lambda a : a + 25
+output  = num(int(input("Enter a number : ")))
+print(output)

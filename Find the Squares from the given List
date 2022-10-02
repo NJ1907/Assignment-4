@@ -1,0 +1,10 @@
+# Assignment 4 submission by Nitish Jha
+
+def square_num(n):
+  return n * n
+
+nums = [4, 5, 2, 9]
+print("Original List: ",nums)
+result = map(square_num, nums)
+print("\nSquare the elements of the above list :")
+print(list(result))
